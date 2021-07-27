@@ -45,30 +45,24 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#carouselExampleCaptions"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#cat">Catagories</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#shoes">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bags">Bags</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sub">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -78,7 +72,7 @@
     <!-- carousel section -->
     <div
       id="carouselExampleCaptions"
-      class="carousel slide container"
+      class="carousel slide container mt-5"
       data-bs-ride="carousel"
     >
       <div class="carousel-indicators">
@@ -186,7 +180,7 @@
     </div>
 
     <!-- Catagories Section -->
-    <div class="container mt-5">
+    <div class="container mt-5" id="cat">
       <div class="row g-4">
         <div class="col-lg-4 col-sm-12">
           <div
@@ -257,7 +251,7 @@
       </div>
     </div>
     <!-- Shoes Section -->
-    <section class="container mt-5">
+    <section class="container mt-5" id="shoes">
       <h3>Shoes</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -307,7 +301,7 @@
     </section>
 
     <!-- Bag Section -->
-    <section class="container mt-5">
+    <section class="container mt-5" id="bags">
       <h3>Bags</h3>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -356,6 +350,45 @@
         </div>
       </div>
     </section>
+    <!-- Subscribe Section -->
+    <section
+      style="height: 400px"
+      class="
+        container
+        bg-secondary
+        justify-content-center
+        align-items-center
+        d-flex
+        my-5
+        rounded-3
+      "
+      id="sub"
+    >
+      <div>
+        <h1 class="text-white">LET'S STAY IN TOUCH</h1>
+        <p class="text-white">Get updates on sales, specials and more</p>
+        <div class="form-floating mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput ">Email address</label>
+        </div>
+
+        <button class="btn btn-danger w-100">Submit</button>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-secondary text-center p-3 text-white">
+      <p>
+        <small>
+          ©2021. Panda Shop. All rights reserved. Showrab Bin Habib.</small
+        >
+      </p>
+    </footer>
 
     <!-- Javascript link -->
     <script
